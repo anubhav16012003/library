@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="current-books">
+            <h1>Currently we have</h1>
+            <ol class="books">
+                <li>Pride and Prejudice</li>
+                <li>The Great Gatsby</li>
+                <li>To Kill A Mockingbird</li>
+            </ol>
+        </div>
+        <button type="button" onclick="currentStock()">Click to see the current stock</button>
+        <div class="add-to-library">
+            <form>
+                <label>You can also add books to library</label>
+                <input type="text" placeholder="Enter the book name here" id="addedBook">
+                <button type="button" onclick="add()">Click to see the updated shelf</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
